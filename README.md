@@ -1,6 +1,6 @@
 # localchat
 
-Run strictly via cmd.
+Run strictly via cmd. Example below.
 
 
 ![CMD](https://github.com/jenyasubbotina/localchat/blob/master/how_to.png)
