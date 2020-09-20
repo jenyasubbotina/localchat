@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title> Chat </title>
+	<style>
+		.centring 
+		{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-right: -50%;
+			transform: translate(-50%, -50%)
+		}
+		.btn
+		{
+			background-color: #00ff00;
+			width: 50px;
+			height: 30px;
+			margin-top: 10%;
+			margin-left: 35%;
+		}
+	</style>
+</head>
+<body>
+	<div class="centring">
+		<h3 align="center"> Chat name </h3>
+		<input type="text" id="name"> </input>
+		<hr>
+		<button class="btn" onclick="run()"> Start </button>
+	</div>
+
+	<script>
+		function run()
+		{
+			location.href = "/room/" + document.getElementById("name").value;
+			document.getElementById("name").value="";
+		}
+	</script>
+	
+</body>
+</html>
